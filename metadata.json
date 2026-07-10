@@ -1,0 +1,8 @@
+{
+  "name": "Emergency Broadcast Dashboard",
+  "description": "A responsive emergency contact and notification hub featuring dynamic 6-digit ID generation, contact lists management, and live client-side broadcast simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

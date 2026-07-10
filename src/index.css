@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-primary: #A94A4A;
+  --color-brand-bg: #FFF6DA;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+ 
+  --color-primary: #A94A4A;
+  --color-brand-bg: #FFF6DA;
+}
+
+/* Custom background reset to ensure consistent experience */
+html, body {
+  background-color: #FFF6DA;
+  color: #A94A4A;
+}
+
+/* Scrollbar styling in brand colors */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF6DA;
+}
+::-webkit-scrollbar-thumb {
+  background: #A94A4A;
+  border-radius: 3px;
+}
+
